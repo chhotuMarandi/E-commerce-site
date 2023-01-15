@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #dadada;
 }
 
 /*===Reuseable Colors===*/
@@ -72,7 +73,7 @@ header a {
 .navbar {
   /* background-color: red; */
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -87,4 +88,8 @@ header a {
 .cart-title {
   font-size: 0.8em;
   font-weight: 100;
+}
+
+.left {
+  padding: 0 -20;
 }
