@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Reuseable Colors*/
+
+:root {
+  --topHeader: #a0a39e;
+  --header: #0b0b0b;
+  --prodTitle: #64615f;
+}
