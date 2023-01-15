@@ -9,7 +9,7 @@
 :root {
   --topHeader: #a0a39e;
   --header: #0b0b0b;
-  --prodTitle: #64615f;
+  --prodTitle: #504d4c;
 }
 
 h1 {
@@ -27,6 +27,11 @@ ul {
 a {
   text-decoration: none;
 }
+
+i {
+  color: black;
+  font-size: 1.2em;
+}
 /*Page*/
 
 .container {
@@ -37,7 +42,6 @@ a {
 /*====Top Header====*/
 
 .top-header {
-  /* background-color: blue; */
   width: 100%;
   height: 5vh;
   display: flex;
@@ -46,7 +50,6 @@ a {
 }
 
 .wrapper {
-  /* background-color: red; */
   width: 80%;
 }
 
@@ -55,9 +58,9 @@ a {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  gap: 12px;
+  gap: 15px;
 }
 
-header .main-links {
+header a {
   color: var(--prodTitle);
 }
