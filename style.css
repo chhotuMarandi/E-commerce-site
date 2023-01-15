@@ -29,9 +29,10 @@ a {
 }
 
 i {
-  color: black;
+  color: #1e1e1e;
   font-size: 1.2em;
 }
+
 /*Page*/
 
 .container {
@@ -58,9 +59,32 @@ i {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  gap: 15px;
+  gap: 18px;
 }
 
 header a {
+  color: var(--topHeader);
+  font-weight: 300;
+}
+
+/*Navbar*/
+
+.navbar {
+  /* background-color: red; */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.navbar a {
+  font-size: 1.2rem;
   color: var(--prodTitle);
+  font-weight: 600;
+}
+
+.cart-title {
+  font-size: 0.8em;
+  font-weight: 100;
 }
