@@ -123,3 +123,24 @@ header a {
   align-items: center;
   background: transparent;
 }
+
+.search-section {
+  width: 40%;
+  padding: 10px;
+}
+
+.fa-search {
+  padding: 0 10px;
+}
+
+.search-section input,
+button {
+  /* padding: 5px; */
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.search-section button {
+  background-color: red;
+}
