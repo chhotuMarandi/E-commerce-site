@@ -114,6 +114,7 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .hero-item {
@@ -166,4 +167,25 @@ button {
 
 .search-section i {
   padding-left: 20px;
+}
+
+.category {
+  width: 20%;
+  margin-top: 40px;
+  padding: 10px;
+  padding-left: 1em;
+  background-color: #e74c3c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.category p {
+  color: #fff;
+  padding: 1px 0;
+  font-size: 13px;
+}
+
+.category .all {
+  font-size: 1.2em;
+  font-weight: 500;
 }
