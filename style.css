@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
   /* background-color: #dadada; */
 }
 
@@ -263,11 +264,21 @@ button {
 .header-item h2 {
   font-size: 2.5em;
   margin-bottom: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+  color: #566573;
 }
 
 .header-item h1 {
   font-size: 3em;
   text-transform: uppercase;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-weight: 900;
+  color: #2c3e50;
+}
+
+.header-item span {
+  color: #f1c40f;
 }
 
 .header-item .buy {
