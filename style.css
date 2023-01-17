@@ -237,8 +237,10 @@ button {
   margin-top: 2em;
   overflow: hidden;
   /* background-color: red; */
-  background-image: url(https://content.fortune.com/wp-content/uploads/2015/12/409661.jpg?w=1440&q=75);
+  background-image: url(https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-item {
