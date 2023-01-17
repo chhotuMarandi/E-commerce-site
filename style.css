@@ -226,9 +226,9 @@ button {
 }
 
 .header-container {
-  width: 40%;
-  height: 50%;
-  background-color: red;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
 }
 
 .image-container {
@@ -236,10 +236,43 @@ button {
   height: 94%;
   margin-top: 2em;
   overflow: hidden;
-  background-color: red;
+  /* background-color: red; */
+  background-image: url(https://content.fortune.com/wp-content/uploads/2015/12/409661.jpg?w=1440&q=75);
+  background-size: 100%;
 }
 
-.image-container img {
-  width: 1200px;
-  object-fit: cover;
+.header-item {
+  padding: 20px;
+  width: 60%;
+  height: 50%;
+  margin-top: 10em;
+  margin-left: 5em;
+}
+
+.shoe-fashion {
+  margin-bottom: 20px;
+  background-color: #0b0b0b;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.header-item h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.header-item h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.header-item .buy {
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: #e74c3c;
 }
