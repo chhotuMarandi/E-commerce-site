@@ -189,3 +189,28 @@ button {
   font-size: 1em;
   font-weight: 500;
 }
+
+/*Category List*/
+
+.category-list {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  background-color: blue;
+  width: 65%;
+}
+
+.list-item {
+  width: 25%;
+  background-color: #fff;
+}
+
+.list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
