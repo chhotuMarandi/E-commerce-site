@@ -194,14 +194,17 @@ button {
 
 .category-list {
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: center;
 }
 
 .list {
-  background-color: blue;
+  /* background-color: blue; */
   width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list-item {
@@ -213,4 +216,19 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 14px 2em;
+  border: 1px solid black;
+}
+
+.image-container {
+  padding: 10px;
+  margin-top: 20px;
+  height: 60vh;
+  width: 73%;
+  /* background-color: red; */
+}
+
+.header-container {
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/newscms/2022_19/1869506/light-weight-shoes-2x1-social-vl-220509.jpg);
+  height: 100%;
 }
