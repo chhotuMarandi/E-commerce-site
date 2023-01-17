@@ -209,7 +209,7 @@ button {
 
 .list-item {
   width: 25%;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .list-content {
@@ -223,8 +223,10 @@ button {
 .image-container {
   padding: 10px;
   margin-top: 20px;
-  height: 60vh;
+  height: 100%;
   width: 73%;
+  overflow: hidden;
+  object-fit: contain;
   /* background-color: red; */
 }
 
