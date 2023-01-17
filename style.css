@@ -212,6 +212,11 @@ button {
   /* background-color: #fff; */
 }
 
+.list-item p {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
 .list-content {
   display: flex;
   justify-content: space-between;
@@ -221,16 +226,16 @@ button {
 }
 
 .image-container {
-  padding: 10px;
-  margin-top: 20px;
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/newscms/2022_19/1869506/light-weight-shoes-2x1-social-vl-220509.jpg);
+  /* padding: 10px; */
+  margin-top: 3em;
   height: 100%;
   width: 73%;
-  overflow: hidden;
-  object-fit: contain;
   /* background-color: red; */
 }
 
 .header-container {
-  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/newscms/2022_19/1869506/light-weight-shoes-2x1-social-vl-220509.jpg);
-  height: 100%;
+  width: 40%;
+  height: 50%;
+  background-color: red;
 }
