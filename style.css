@@ -294,3 +294,38 @@ button {
   padding: 10px 25px;
   background-color: #e74c3c;
 }
+
+/* Brands */
+
+.brands-container {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-item {
+  width: 65%;
+  height: 20vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.brands-item .box {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-item img {
+  width: 100%;
+}
