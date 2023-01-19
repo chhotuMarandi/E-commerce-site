@@ -378,8 +378,20 @@ button {
   margin: 10px 0;
 }
 
+.trending-items-1 p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.trending-items-1 span {
+  background-color: #eaecee;
+  margin: 0 5px;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
 .trending-items-2 {
-  margin-top: 10PX;
+  margin-top: 10px;
   /* background-color: cyan; */
   width: 80%;
   height: 20%;
@@ -394,7 +406,6 @@ button {
   background-size: 100%;
 }
 
-
 .trending-sale .star,
 .trending-sale .price {
   display: flex;
@@ -408,6 +419,7 @@ button {
 
 .trending-items-2 h5 {
   margin: 10px 0;
+  font-weight: 600;
 }
 
 .trending-items-2 .price {
@@ -421,17 +433,42 @@ button {
 .trending-items-2 .range-2 {
   margin: 10px 0;
   width: 100%;
-  background-color: grey;
+  background-color: #e5e8e8;
   height: 0.5vh;
 }
 
 .trending-items-2 .range-3 {
   margin: 10px 0;
   width: 30%;
-  background-color: cyan;
+  background-color: #a569bd;
   height: 0.5vh;
 }
-/* .trending-sale img {
-  width: 100%;
-  object-fit: cover;
+
+.trending-items-2 .star-icon {
+  font-size: 0.8em;
+}
+
+.trending-items-2 .rating {
+  font-size: 0.7em;
+  color: #808b96;
+  font-weight: 500;
+}
+
+.trending-items-2 .star {
+  display: flex;
+  align-items: center;
+}
+
+.trending-items-2 del {
+  font-size: 0.6em;
+  color: #808b96;
+}
+
+.trending-items-2 .price p {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.trending-items-2 p {
+  font-size: 12px;
 }
