@@ -418,27 +418,27 @@ button {
   background-size: 100%;
 }
 
-.trending-sale .star,
-.trending-sale .price {
+.star,
+.price {
   display: flex;
   margin-right: auto;
 }
 
-.trending-sale .range {
+.range {
   display: flex;
   justify-content: space-between;
 }
 
-.trending-items-2 h5 {
+h5 {
   margin: 10px 0;
   font-weight: 600;
 }
 
-.trending-items-2 .price {
+.price {
   margin: 10px 0;
 }
 
-.trending-items-2 p {
+p {
   padding: 0 5px;
 }
 
@@ -471,18 +471,18 @@ button {
   align-items: center;
 }
 
-.trending-items-2 del {
+del {
   font-size: 0.6em;
   color: #808b96;
 }
 
-.trending-items-2 .price p {
+.price p {
   color: #e74c3c;
   font-size: 1em;
   font-weight: 600;
 }
 
-.trending-items-2 p {
+p {
   font-size: 12px;
 }
 
@@ -501,7 +501,7 @@ button {
 }
 
 .product-box {
-  background-color: cyan;
+  /* background-color: cyan; */
   width: 100%;
   display: flex;
 }
@@ -514,7 +514,7 @@ button {
 }
 
 .product-image img {
-  width: 100%;
+  width: 100px;
   height: 100%;
   object-fit: contain;
 }
