@@ -344,7 +344,7 @@ button {
 .trending-main {
   width: 100%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
 }
@@ -456,7 +456,7 @@ button {
   height: 0.5vh;
 }
 
-.trending-items-2 .star-icon {
+.star-icon {
   font-size: 0.8em;
 }
 
@@ -490,7 +490,7 @@ button {
 
 .produts-container {
   margin-top: 2em;
-  background-color: blue;
+  /* background-color: blue; */
   width: 70%;
   height: 80%;
   display: grid;
@@ -503,5 +503,18 @@ button {
 .product-box {
   background-color: cyan;
   width: 100%;
-  /* height: 30%; */
+  display: flex;
+}
+
+.product-image {
+  width: 120px;
+  height: 150px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
