@@ -504,9 +504,11 @@ p {
   /* background-color: cyan; */
   width: 100%;
   display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .product-image {
+  padding: 10px;
   width: 120px;
   height: 150px;
   background-color: #fff;
@@ -517,4 +519,9 @@ p {
   width: 100px;
   height: 100%;
   object-fit: contain;
+}
+
+.product-items .range {
+  display: flex;
+  flex-direction: column;
 }
