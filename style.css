@@ -401,6 +401,13 @@ button {
   padding: 2px 6px;
   border-radius: 2px;
 }
+.trending-items-1 p {
+  font-size: 1em;
+}
+
+.trending-heading h2 {
+  margin-bottom: 10px;
+}
 
 .trending-items-2 {
   margin-top: 10px;
@@ -505,14 +512,16 @@ p {
   width: 100%;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
 }
 
 .product-image {
-  padding: 10px;
+  padding: 15px;
   width: 120px;
   height: 150px;
   background-color: #fff;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .product-image img {
@@ -524,4 +533,9 @@ p {
 .product-items .range {
   display: flex;
   flex-direction: column;
+}
+
+.product-image img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
 }
