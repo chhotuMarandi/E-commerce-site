@@ -610,11 +610,41 @@ p {
   background-color: blue;
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .banner-top {
   background-color: green;
   width: 100%;
   height: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.banner-box {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-left,
+.banner-right {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.banner-left p {
+  font-size: 1.2em;
+}
+
+.banner-right {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.banner-right img {
+  width: 100%;
 }
