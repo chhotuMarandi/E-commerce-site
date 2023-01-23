@@ -599,7 +599,7 @@ p {
 
 .banner-section {
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -607,14 +607,14 @@ p {
 
 .banner-container {
   width: 65%;
-  background-color: blue;
+  /* background-color: blue; */
   height: auto;
   display: flex;
   justify-content: center;
 }
 
 .banner-top {
-  background-color: green;
+  /* background-color: green; */
   width: 100%;
   height: 40%;
   display: flex;
@@ -628,12 +628,15 @@ p {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  border: 1px solid #e0e0e0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
 }
 
 .banner-image img {
   width: 50%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   margin-left: auto;
 }
 
@@ -653,9 +656,10 @@ p {
 .banner-image .p2 {
   font-size: 1.5em;
   font-weight: 600;
+  margin-top: 10px;
 }
 
 .banner-image .buy {
-  font-size: 1em;
-  width: 130px;
+  font-size: 0.8em;
+  width: 120px;
 }
