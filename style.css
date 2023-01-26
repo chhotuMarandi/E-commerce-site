@@ -678,3 +678,18 @@ p {
 .banner-low .banner-image {
   padding: 20px;
 }
+
+.view-all {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 600;
+}
+
+.view-all p {
+  font-size: 0.8em;
+}
+
+.banner-low .para {
+  font-size: 0.8em;
+}
