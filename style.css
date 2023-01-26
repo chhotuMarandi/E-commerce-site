@@ -602,7 +602,7 @@ p {
 .banner-section {
   width: 100%;
   /* background-color: red; */
-  height: 40vh;
+  height: auto;
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -638,7 +638,7 @@ p {
   justify-content: space-between;
   overflow: hidden;
   border: 1px solid #e0e0e0;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   width: 100%;
 }
 
@@ -677,6 +677,7 @@ p {
 
 .banner-low .banner-image {
   padding: 20px;
+  box-shadow: none;
 }
 
 .view-all {
@@ -692,4 +693,43 @@ p {
 
 .banner-low .para {
   font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-low {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* lower search section */
+
+.mail-container {
+  width: 100%;
+  height: 15vh;
+  background: var(--heroColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mail-container h3 {
+  color: #fff;
+}
+
+.search-item p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1em;
+}
+
+.mail-container span {
+  color: var(--buttonColor);
+  font-weight: 600;
+}
+
+.mail-container i {
+  margin-right: 20px;
 }
