@@ -37,6 +37,10 @@ i {
   font-size: 1.2em;
 }
 
+hr {
+  border-top: 1px solid #d5d8dc;
+}
+
 html {
   /* font-size: 62.5%; */
   overflow-x: hidden;
@@ -332,6 +336,10 @@ button {
   width: 80%;
 }
 
+.brands-item img:hover {
+  cursor: pointer;
+}
+
 /* Trending Section */
 
 .trending {
@@ -372,6 +380,10 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.trending-sale:hover {
+  cursor: pointer;
 }
 
 .trending-items-1 {
@@ -517,6 +529,10 @@ p {
   border-radius: 5px;
 }
 
+.product-box:hover {
+  cursor: pointer;
+}
+
 .product-image {
   padding: 15px;
   width: 120px;
@@ -599,6 +615,10 @@ p {
   transition: all 0.3s ease-out;
 }
 
+.featured-container:hover {
+  cursor: pointer;
+}
+
 /* Banner Section */
 
 .banner-section {
@@ -670,6 +690,10 @@ p {
   margin-top: 10px;
 }
 
+.banner-image button:hover {
+  cursor: pointer;
+}
+
 .banner-image .buy {
   font-size: 0.8em;
   width: 120px;
@@ -703,6 +727,10 @@ p {
 .banner-low {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+.view-all p {
+  cursor: pointer;
 }
 
 /* mail search section */
@@ -813,6 +841,11 @@ p {
   border-radius: 50%;
 }
 
+.social-items i:hover {
+  cursor: pointer;
+}
+
 .social-items p {
   font-size: 12px;
+  text-transform: capitalize;
 }
