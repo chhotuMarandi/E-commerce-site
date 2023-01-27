@@ -232,6 +232,10 @@ button {
   border: 1px solid black;
 }
 
+.list-content :hover {
+  cursor: pointer;
+}
+
 .list-item li {
   border-style: none solid solid solid;
   border-color: #d0d3d4;
