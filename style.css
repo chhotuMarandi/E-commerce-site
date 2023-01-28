@@ -377,7 +377,7 @@ button {
   margin-top: 2em;
   width: 27%;
   height: 80%;
-  border: 2px solid black;
+  border: 2px solid #808b96;
   border-radius: 7px;
   /* background-color: red; */
   display: flex;
@@ -845,8 +845,29 @@ p {
   border-radius: 50%;
 }
 
-.social-items i:hover {
+.social-items .fa-twitter:hover {
   cursor: pointer;
+  color: #1d9bf0;
+}
+
+.social-items .fa-facebook:hover {
+  cursor: pointer;
+  color: #1b74e4;
+}
+
+.social-items .fa-instagram:hover {
+  cursor: pointer;
+  color: #ff3040;
+}
+
+.social-items .fa-linkedin:hover {
+  cursor: pointer;
+  color: #0a66c2;
+}
+
+.social-items .fa-youtube:hover {
+  cursor: pointer;
+  color: #ff0000;
 }
 
 .social-items p {
